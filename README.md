@@ -1,37 +1,45 @@
-# 🧠 Medical Healthcare Generative AI
+# 🩺 MediAI
 
-An AI-powered healthcare assistant designed to provide intelligent and accessible medical information using Generative AI.
+MediAI is an AI-powered medical assistance application built with Python, Flask, and local AI technology.
+
+It provides an interactive chat interface where users can ask health-related questions and receive AI-generated informational responses.
 
 ## ✨ Features
 
-- 🤖 AI-powered healthcare assistance
-- 💬 Natural language interaction
-- 🧠 Generative AI-based responses
-- 🔍 Healthcare information assistance
-- ⚡ Fast and interactive responses
-- 🖥️ Simple and user-friendly interface
+- 🤖 AI-powered medical chat
+- 💬 Interactive conversational interface
+- 🧠 Local AI using Ollama
+- 🐍 Python + Flask backend
+- 🌐 Web-based interface
+- 💾 Conversation history support
+- ⚡ Fast local AI responses
+- 🎨 Clean and user-friendly UI
 
 ## 🛠️ Tech Stack
 
 - Python
-- Generative AI
-- Large Language Models (LLMs)
+- Flask
+- Ollama
+- LLM
 - HTML
 - CSS
 - JavaScript
-- Ollama / Local AI
 
-## 📂 Project Structure
+## 🧠 AI Model
+
+MediAI uses a locally running Ollama model for generating responses.
+
+Example:
 
 ```text
-Medical-Healthcare-Generative-AI/
-│
-├── app.py
-├── templates/
-├── static/
-├── ai/
-├── medical/
-├── documents/
-├── requirements.txt
-├── .env.example
-└── README.md
+User
+  ↓
+MediAI Web Interface
+  ↓
+Flask Backend
+  ↓
+Ollama
+  ↓
+Local LLM
+  ↓
+AI Response
