@@ -1,26 +1,37 @@
-# Medical-Healthcare-Generative-AI
+# 🧠 Medical Healthcare Generative AI
 
+An AI-powered healthcare assistant designed to provide intelligent and accessible medical information using Generative AI.
 
-# How to run?
-### STEPS:
+## ✨ Features
 
-Clone the repository
+- 🤖 AI-powered healthcare assistance
+- 💬 Natural language interaction
+- 🧠 Generative AI-based responses
+- 🔍 Healthcare information assistance
+- ⚡ Fast and interactive responses
+- 🖥️ Simple and user-friendly interface
 
-```bash
-Project repo: https://github.com/
-```
-### STEP 01- Create a conda environment after opening the repository
+## 🛠️ Tech Stack
 
-```bash
-conda create -n medibot python=3.10 -y
-```
+- Python
+- Generative AI
+- Large Language Models (LLMs)
+- HTML
+- CSS
+- JavaScript
+- Ollama / Local AI
 
-```bash
-conda activate medibot
-```
+## 📂 Project Structure
 
-
-### STEP 02- install the requirements
-```bash
-pip install -r requirements.txt
-```
+```text
+Medical-Healthcare-Generative-AI/
+│
+├── app.py
+├── templates/
+├── static/
+├── ai/
+├── medical/
+├── documents/
+├── requirements.txt
+├── .env.example
+└── README.md
